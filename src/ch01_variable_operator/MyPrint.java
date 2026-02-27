@@ -3,6 +3,6 @@ package ch01_variable_operator;
 public class MyPrint {
     static void main() {
         System.out.println("hello");
-        System.out.println("world");//kk
+        System.out.println("world");//kkkk
     }
 }
