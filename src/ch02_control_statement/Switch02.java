@@ -2,9 +2,9 @@ package ch02_control_statement;
 
 public class Switch02 {
     static void main() {
-        int month = 13;
+        int month = 3;
         switch(month){
-            case 3: case 4: case 5:
+            case 3,4,5: // 에러 없음
                 System.out.println(month + "월은 봄입니다");
                 break;
             case 6: case 7 :case 8:

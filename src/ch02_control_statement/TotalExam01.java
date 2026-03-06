@@ -37,7 +37,7 @@ public class TotalExam01 {
                 break;
         }
 
-        String message = "";
+        String message ;
 
         System.out.println("이름: "+name);
         message = "국어: %d점, 영어: %d점, 수학: %d점 \n";
