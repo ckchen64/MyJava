@@ -3,7 +3,7 @@ package ch02_control_statement;
 public class For01 {
     static void main(String[] args) {
         //1~10의 sum
-        int total = 0;
+        int total = 0; //지역변수는 반드시 초기화(최초갑설정)를 해야한다
         for (int i = 1; i <= 10; i++) {
             // for(초기식(변수값 할당, 1회만 실행);조건식;증감식){}, (i++)==(i+=1)
             // 초기식의 할당값(1)이 조건식에 적합하므로, {}를 실행한다 total==0+1,
