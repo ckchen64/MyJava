@@ -1,6 +1,6 @@
 package ch04_class;
 
-public class TestStockOrder {
+public class TestStockOrder01 {
     private String stockName;
     private int quantity;
     private int price;

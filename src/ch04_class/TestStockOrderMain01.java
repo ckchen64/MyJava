@@ -1,11 +1,9 @@
 package ch04_class;
 
-import java.util.Scanner;
-
-public class TestStockOrderMain {
+public class TestStockOrderMain01 {
     static void main(String[] args) {
 
-        TestStockOrder order01 = new TestStockOrder();
+        TestStockOrder01 order01 = new TestStockOrder01();
         // 생성자는 객체를 생성할 때, 객체의 속성(필드)에 값의 입력을 강제하여
         // 객체의 오류를 방지하기 위함
         order01.setStockName("삼성전자");
@@ -16,7 +14,7 @@ public class TestStockOrderMain {
         System.out.println(order01.showInfo());
         System.out.println(order01.getStockName()+" "+order01.getPrice());
 
-        TestStockOrder order02 = new TestStockOrder();
+        TestStockOrder01 order02 = new TestStockOrder01();
         order02.setStockName("SK하이닉스");
         order02.setPrice(800000);
         order02.setQuantity(50);
