@@ -1,6 +1,6 @@
 package ch02_control_statement;
 
-public class AdultCheck {
+public class IfElseAdultCheck {
     static void main(String[] args) {
         String name = "김철수";
         int age = 12;

@@ -5,6 +5,7 @@ public class Product03 {
     private int price = 500 ; // 상품의 단가가 입력되지 않으면 500원으로 디폴트값을 지정할 때
     private String inputdate ; //
 
+
     //기본(default) 생성자 : 눈에 보이지 않음,
     // 정의: 갹체 생성시 오직 1회만 호출되는 메소드
     // 개발자가 생성자를 정의하면 기본생성자에서 개발자의 생성자로 대체

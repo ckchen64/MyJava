@@ -21,7 +21,10 @@ public class MyArr01 {
         arr[1] = arr[0] + arr[2]; //11
 
         for (int i = 0; i < arr.length ; i++) {//arr.length = arr의 변수갯수
-            System.out.println(arr[i]);
+  //          System.out.println(arr[i]);
+        }
+        for (int i:arr){ // 확장 for 구문
+            System.out.println(i);
         }
 
         //배열생성 방법02: {}를 사용하여 배열생성

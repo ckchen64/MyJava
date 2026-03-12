@@ -1,6 +1,6 @@
 package ch02_control_statement;
 
-public class If06 {
+public class IfSwitch06 {
     static void main() {
         int month = 10;
         if(month%12 >=3 && month%12 <=5) {

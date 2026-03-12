@@ -3,7 +3,7 @@ package ch04_class;
 public class Product01 {// 단계01: 클래스 정의
     // 멤버변수(필드)와 필요기능, 메소드를 설계한다
     // 변수(variable)=필드(field)는 같은 의미로 사용된다
-    String name; //상품명
+    public String name; //상품명
     int price; // @단가
     String inputdate; //입고일자
 

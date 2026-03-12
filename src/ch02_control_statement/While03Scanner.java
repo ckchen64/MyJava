@@ -2,7 +2,7 @@ package ch02_control_statement;
 
 import java.util.Scanner;
 
-public class While03 {
+public class While03Scanner {
     static void main(String[] args) {
         // 1~100 까지의 정수 중 임의의 숫자 n을 확인합니다
         int answer = 40; //컴퓨터가 생각하고 있는 숫자로 가정함

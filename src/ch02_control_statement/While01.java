@@ -11,7 +11,7 @@ public class While01 {
             total += i;
             i++;
         }
-        System.out.println("sum01: "+total);
+        System.out.println("sum01: "+total);//55
 
 
         // 1+4+7....+100 까지의 합
@@ -22,7 +22,7 @@ public class While01 {
             total += i;
             i += 3;
         }
-        System.out.println("sum02: "+total);
+        System.out.println("sum02: "+total);//1717
 
         // 97+92+87....+2 까지의 합
         total =0;
